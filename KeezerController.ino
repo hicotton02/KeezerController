@@ -21,8 +21,8 @@
 
 Adafruit_SSD1306 display(OLED_RESET);
 
-const char* ssid = "Skaz";
-const char* password = "File_Server";
+const char* ssid = "";
+const char* password = "";
 
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
